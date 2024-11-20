@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de Sesión</title>
+    <title>Inicio de SesiÃ³n</title>
     <!-- Incluye Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
@@ -87,7 +87,7 @@
 <body>
     <div class="login-container">
         <div class="login-header text-center">
-            <h5 class="mb-0">Inicio de Sesión</h5>
+            <h5 class="mb-0">Inicio de SesiÃ³n</h5>
         </div>
         <div class="text-center mb-3" style="background: white;">
             <img src="https://i.ibb.co/M1xqhhQ/logo-citas.png" alt="Logo">
@@ -104,20 +104,20 @@
                 <input type="text" class="form-control" id="nombreusuario" name="nombreusuario" placeholder="Ingrese su usuario" required>
             </div>
             <div class="mb-3">
-                <label for="password" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="contraseña" name="contraseña" placeholder="Ingrese su contraseña" required>
+                <label for="password" class="form-label">ContraseÃ±a</label>
+                <input type="password" class="form-control" id="contraseÃ±a" name="contraseÃ±a" placeholder="Ingrese su contraseÃ±a" required>
             </div>
             <div class="d-flex justify-content-between mb-3">
                 <div class="form-check">
                     <input type="checkbox" class="form-check-input" id="rememberMe">
                     <label class="form-check-label" for="rememberMe">Recordarme</label>
                 </div>
-                <a href="#" class="text-white">Olvidó su contraseña?</a>
+                <a href="#" class="text-white">OlvidÃ³ su contraseÃ±a?</a>
             </div>
-            <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+            <button type="submit" class="btn btn-primary w-100">Iniciar SesiÃ³n</button>
         </form>
         <div class="login-footer">
-            <a href="Registrar.jsp" class="text-white me-2"><i class="fas fa-user-plus"></i> Regístrate</a>
+            <a href="Registrar.jsp" class="text-white me-2"><i class="fas fa-user-plus"></i> RegÃ­strate</a>
             <a href="contacto.jsp" class="text-white"><i class="fas fa-envelope"></i> Contacto</a>
         </div>
     </div>
